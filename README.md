@@ -3,7 +3,7 @@
 A comprehensive, spectrum-based design system built on the natural harmony of ROY G BIV. **Anchovy** provides a complete foundation of colors, typography, spacing, and sizing tokens to create beautiful, accessible, and consistent user interfaces.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![npm version](https://img.shields.io/npm/v/@yourorg/anchovy-design-system.svg)](https://www.npmjs.com/package/@yourorg/anchovy-design-system)
+[![npm version](https://img.shields.io/npm/v/@minnow-labs/anchovy-design-system.svg)](https://www.npmjs.com/package/@minnow-labs/anchovy-design-system)
 [![Design Tokens](https://img.shields.io/badge/design%20tokens-217-blueviolet)](public/anchovy-design-tokens.json)
 
 ---
@@ -26,7 +26,7 @@ A comprehensive, spectrum-based design system built on the natural harmony of RO
 ### Installation
 
 ```bash
-npm install @yourorg/anchovy-design-system
+npm install @minnow-labs/anchovy-design-system
 ```
 
 ### Basic Usage
@@ -35,7 +35,7 @@ Import the CSS file in your application:
 
 ```javascript
 // ES6 / React / Vue
-import '@yourorg/anchovy-design-system/dist/theme.css';
+import '@minnow-labs/anchovy-design-system/dist/theme.css';
 ```
 
 ```html
@@ -467,7 +467,7 @@ Here's a full component using Anchovy tokens:
 ### React
 
 ```jsx
-import '@yourorg/anchovy-design-system/dist/theme.css';
+import '@minnow-labs/anchovy-design-system/dist/theme.css';
 
 function Button({ children, variant = 'primary' }) {
   const styles = {
@@ -499,7 +499,7 @@ function Button({ children, variant = 'primary' }) {
 </template>
 
 <script>
-import '@yourorg/anchovy-design-system/dist/theme.css';
+import '@minnow-labs/anchovy-design-system/dist/theme.css';
 
 export default {
   props: ['title', 'description']
@@ -566,7 +566,7 @@ All design tokens are available in JSON format for use in other tools:
 
 ```javascript
 // Import the full token set
-import tokens from '@yourorg/anchovy-design-system/public/anchovy-design-tokens.json';
+import tokens from '@minnow-labs/anchovy-design-system/public/anchovy-design-tokens.json';
 
 console.log(tokens.colors.signal['500'].value);  // "#EF4444"
 console.log(tokens.typography.display.large.size.value);  // "72"
@@ -660,8 +660,7 @@ This design system is free to use in commercial and personal projects.
 
 - **Issues**: [GitHub Issues](https://github.com/yourorg/anchovy-design-system/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/yourorg/anchovy-design-system/discussions)
-- **Email**: design-system@yourorg.com
-- **Twitter**: [@YourOrg](https://twitter.com/yourorg)
+- **Email**: design-system@minnowlabs.com
 
 ---
 
@@ -680,6 +679,6 @@ This design system is free to use in commercial and personal projects.
 
 ---
 
-**Made with 🎨 by [Your Organization]**
+**Made with 🎨 by minnow labs**
 
 *Bringing spectral harmony to digital experiences*
