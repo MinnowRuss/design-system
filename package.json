@@ -1,0 +1,10 @@
+{
+  "name": "@minnow-labs/anchovy-design-system",
+  "version": "1.0.0",
+  "description": "A comprehensive design system based on ROY G BIV color spectrum",
+  "main": "dist/index.js",
+  "style": "dist/theme.css",
+  "files": ["dist", "tokens"],
+  "keywords": ["design-system", "css", "design-tokens"],
+  "repository": "github:minnow-labs/anchovy-design-system"
+}
