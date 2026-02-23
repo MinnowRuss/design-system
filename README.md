@@ -641,7 +641,7 @@ When contributing, follow these core principles:
 
 ## 📄 License
 
-MIT License © [Your Organization]
+MIT License © minnow labs.
 
 This design system is free to use in commercial and personal projects.
 
