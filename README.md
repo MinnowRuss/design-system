@@ -1,6 +1,6 @@
 # 🎨 Anchovy Design System
 
-A comprehensive, spectrum-based design system built on the natural harmony of ROY G BIV. **Anchovy** provides a complete foundation of colors, typography, spacing, and sizing tokens to create beautiful, accessible, and consistent user interfaces.
+A comprehensive, spectrum-based design system built on the natural harmony of ROYGBIV. **Anchovy** provides a complete foundation of colors, typography, spacing, and sizing tokens to create beautiful, accessible, and consistent user interfaces.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![npm version](https://img.shields.io/npm/v/@minnow-labs/anchovy-design-system.svg)](https://www.npmjs.com/package/@minnow-labs/anchovy-design-system)
@@ -26,7 +26,7 @@ A comprehensive, spectrum-based design system built on the natural harmony of RO
 ### Installation
 
 ```bash
-npm install @minnow-labs/anchovy-design-system
+npm install @MinnowRuss/anchovy-design-system
 ```
 
 ### Basic Usage
@@ -35,7 +35,7 @@ Import the CSS file in your application:
 
 ```javascript
 // ES6 / React / Vue
-import '@minnow-labs/anchovy-design-system/dist/theme.css';
+import '@MinnowRuss/anchovy-design-system/dist/theme.css';
 ```
 
 ```html
@@ -649,7 +649,7 @@ This design system is free to use in commercial and personal projects.
 
 ## 🙌 Acknowledgments
 
-- **ROY G BIV color model** for natural spectral harmony
+- **ROYGBIV color model** for natural spectral harmony
 - **Inter font** by Rasmus Andersson
 - **JetBrains Mono** for code typography
 - **WCAG Guidelines** for accessibility standards
