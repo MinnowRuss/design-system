@@ -1,0 +1,483 @@
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  --font-size: 16px;
+
+  /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     ROY G BIV Color Spectrum — 70 shades
+     All colors from the Anchovy Design System
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+
+  /* Red / Signal */
+  --red-50: #FFF1F2;
+  --red-100: #FFE4E6;
+  --red-200: #FECDD3;
+  --red-300: #FDA4AF;
+  --red-400: #FB7185;
+  --red-500: #F43F5E;
+  --red-600: #E11D48;
+  --red-700: #BE123C;
+  --red-800: #9F1239;
+  --red-900: #881337;
+
+  /* Orange / Ember */
+  --orange-50: #FFF7ED;
+  --orange-100: #FFEDD5;
+  --orange-200: #FED7AA;
+  --orange-300: #FDBA74;
+  --orange-400: #FB923C;
+  --orange-500: #F97316;
+  --orange-600: #EA580C;
+  --orange-700: #C2410C;
+  --orange-800: #9A3412;
+  --orange-900: #7C2D12;
+
+  /* Yellow / Solar */
+  --yellow-50: #FEFCE8;
+  --yellow-100: #FEF9C3;
+  --yellow-200: #FEF08A;
+  --yellow-300: #FDE047;
+  --yellow-400: #FACC15;
+  --yellow-500: #EAB308;
+  --yellow-600: #CA8A04;
+  --yellow-700: #A16207;
+  --yellow-800: #854D0E;
+  --yellow-900: #713F12;
+
+  /* Green / Matrix */
+  --green-50: #ECFDF5;
+  --green-100: #D1FAE5;
+  --green-200: #A7F3D0;
+  --green-300: #6EE7B7;
+  --green-400: #34D399;
+  --green-500: #10B981;
+  --green-600: #059669;
+  --green-700: #047857;
+  --green-800: #065F46;
+  --green-900: #064E3B;
+
+  /* Blue / Neural */
+  --blue-50: #EFF6FF;
+  --blue-100: #DBEAFE;
+  --blue-200: #BFDBFE;
+  --blue-300: #93C5FD;
+  --blue-400: #60A5FA;
+  --blue-500: #3B82F6;
+  --blue-600: #2563EB;
+  --blue-700: #1D4ED8;
+  --blue-800: #1E40AF;
+  --blue-900: #1E3A8A;
+
+  /* Indigo / Logic */
+  --indigo-50: #EEF2FF;
+  --indigo-100: #E0E7FF;
+  --indigo-200: #C7D2FE;
+  --indigo-300: #A5B4FC;
+  --indigo-400: #818CF8;
+  --indigo-500: #6366F1;
+  --indigo-600: #4F46E5;
+  --indigo-700: #4338CA;
+  --indigo-800: #3730A7;
+  --indigo-900: #312E81;
+
+  /* Violet / Synapse */
+  --violet-50: #F5F3FF;
+  --violet-100: #EDE9FE;
+  --violet-200: #DDD6FE;
+  --violet-300: #C4B5FD;
+  --violet-400: #A78BFA;
+  --violet-500: #8B5CF6;
+  --violet-600: #7C3AED;
+  --violet-700: #6D28D9;
+  --violet-800: #5B21B6;
+  --violet-900: #4C1D95;
+
+  /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     Typography Scale — 16 Type Levels
+     Based on Anchovy Design System type ramp
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+
+  /* Display Sizes */
+  --type-display-lg-size: 72px;
+  --type-display-lg-weight: 700;
+  --type-display-lg-line-height: 1.1;
+  --type-display-lg-letter-spacing: -0.025em;
+
+  --type-display-md-size: 56px;
+  --type-display-md-weight: 700;
+  --type-display-md-line-height: 1.1;
+  --type-display-md-letter-spacing: -0.025em;
+
+  --type-display-sm-size: 48px;
+  --type-display-sm-weight: 600;
+  --type-display-sm-line-height: 1.15;
+  --type-display-sm-letter-spacing: -0.02em;
+
+  /* Heading Sizes */
+  --type-h1-size: 36px;
+  --type-h1-weight: 600;
+  --type-h1-line-height: 1.2;
+  --type-h1-letter-spacing: -0.02em;
+
+  --type-h2-size: 30px;
+  --type-h2-weight: 600;
+  --type-h2-line-height: 1.25;
+  --type-h2-letter-spacing: -0.015em;
+
+  --type-h3-size: 24px;
+  --type-h3-weight: 600;
+  --type-h3-line-height: 1.3;
+  --type-h3-letter-spacing: -0.01em;
+
+  --type-h4-size: 20px;
+  --type-h4-weight: 500;
+  --type-h4-line-height: 1.35;
+  --type-h4-letter-spacing: -0.005em;
+
+  --type-h5-size: 18px;
+  --type-h5-weight: 500;
+  --type-h5-line-height: 1.4;
+  --type-h5-letter-spacing: 0em;
+
+  --type-h6-size: 16px;
+  --type-h6-weight: 500;
+  --type-h6-line-height: 1.5;
+  --type-h6-letter-spacing: 0em;
+
+  /* Body Text */
+  --type-body-lg-size: 18px;
+  --type-body-lg-weight: 400;
+  --type-body-lg-line-height: 1.7;
+  --type-body-lg-letter-spacing: 0em;
+
+  --type-body-base-size: 16px;
+  --type-body-base-weight: 400;
+  --type-body-base-line-height: 1.7;
+  --type-body-base-letter-spacing: 0em;
+
+  --type-body-sm-size: 14px;
+  --type-body-sm-weight: 400;
+  --type-body-sm-line-height: 1.65;
+  --type-body-sm-letter-spacing: 0.005em;
+
+  /* UI Text */
+  --type-caption-size: 12px;
+  --type-caption-weight: 400;
+  --type-caption-line-height: 1.5;
+  --type-caption-letter-spacing: 0.01em;
+
+  --type-overline-size: 11px;
+  --type-overline-weight: 500;
+  --type-overline-line-height: 1.5;
+  --type-overline-letter-spacing: 0.1em;
+
+  /* Code */
+  --type-code-inline-size: 14px;
+  --type-code-inline-weight: 400;
+  --type-code-inline-line-height: 1.6;
+  --type-code-inline-letter-spacing: 0em;
+
+  --type-code-block-size: 13px;
+  --type-code-block-weight: 400;
+  --type-code-block-line-height: 1.7;
+  --type-code-block-letter-spacing: 0em;
+
+  /* Font Families */
+  --font-family-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-family-mono: "JetBrains Mono", "Fira Code", "Courier New", monospace;
+
+  /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     Spacing Scale — 4px Base Unit
+     Based on Anchovy Design System spacing tokens
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+
+  --space-0: 0px;
+  --space-0-5: 2px;    /* 0.5 × 4px */
+  --space-1: 4px;      /* 1 × 4px */
+  --space-1-5: 6px;    /* 1.5 × 4px */
+  --space-2: 8px;      /* 2 × 4px */
+  --space-2-5: 10px;   /* 2.5 × 4px */
+  --space-3: 12px;     /* 3 × 4px */
+  --space-3-5: 14px;   /* 3.5 × 4px */
+  --space-4: 16px;     /* 4 × 4px */
+  --space-5: 20px;     /* 5 × 4px */
+  --space-6: 24px;     /* 6 × 4px */
+  --space-7: 28px;     /* 7 × 4px */
+  --space-8: 32px;     /* 8 × 4px */
+  --space-9: 36px;     /* 9 × 4px */
+  --space-10: 40px;    /* 10 × 4px */
+  --space-11: 44px;    /* 11 × 4px */
+  --space-12: 48px;    /* 12 × 4px */
+  --space-14: 56px;    /* 14 × 4px */
+  --space-16: 64px;    /* 16 × 4px */
+  --space-20: 80px;    /* 20 × 4px */
+  --space-24: 96px;    /* 24 × 4px */
+  --space-28: 112px;   /* 28 × 4px */
+  --space-32: 128px;   /* 32 × 4px */
+  --space-36: 144px;   /* 36 × 4px */
+  --space-40: 160px;   /* 40 × 4px */
+  --space-44: 176px;   /* 44 × 4px */
+  --space-48: 192px;   /* 48 × 4px */
+  --space-52: 208px;   /* 52 × 4px */
+  --space-56: 224px;   /* 56 × 4px */
+  --space-60: 240px;   /* 60 × 4px */
+  --space-64: 256px;   /* 64 × 4px */
+  --space-72: 288px;   /* 72 × 4px */
+  --space-80: 320px;   /* 80 × 4px */
+  --space-96: 384px;   /* 96 × 4px */
+
+  /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     Sizing Tokens — Component Dimensions
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+
+  /* Icon Sizes */
+  --size-icon-xs: 12px;
+  --size-icon-sm: 14px;
+  --size-icon-md: 16px;
+  --size-icon-lg: 20px;
+  --size-icon-xl: 24px;
+  --size-icon-2xl: 32px;
+
+  /* Button/Touch Target Sizes */
+  --size-touch-sm: 32px;
+  --size-touch-md: 40px;
+  --size-touch-lg: 48px;
+
+  /* Layout Sizes */
+  --size-sidebar: 260px;
+  --size-content-max: 1280px;
+  --size-content-narrow: 640px;
+
+  /* Border Radius (already defined, but adding semantic ones) */
+  --radius-xs: 4px;
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-2xl: 20px;
+  --radius-full: 9999px;
+
+  /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     Semantic UI Tokens — Light Mode
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+
+  /* Page-level backgrounds */
+  --page-bg: #FAFBFE;
+  --surface-bg: #F1F3F8;
+  --surface-border: rgba(0, 0, 0, 0.06);
+
+  /* Text colors (from Typography Palette) */
+  --text-heading-primary: #0F172A;
+  --text-heading-secondary: #1E293B;
+  --text-body: #334155;
+  --text-secondary: #64748B;
+  --text-muted: #94A3B8;
+  --text-subtle: #CBD5E1;
+
+  /* Interactive states */
+  --interactive-hover-bg: rgba(0, 0, 0, 0.02);
+  --interactive-active-bg: rgba(0, 0, 0, 0.04);
+
+  /* Brand gradient */
+  --gradient-aurora: linear-gradient(135deg, var(--blue-500), var(--indigo-500), var(--violet-500));
+
+  /* Existing semantic tokens */
+  --background: #ffffff;
+  --foreground: oklch(0.145 0 0);
+  --card: #ffffff;
+  --card-foreground: oklch(0.145 0 0);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.145 0 0);
+  --primary: #030213;
+  --primary-foreground: oklch(1 0 0);
+  --secondary: oklch(0.95 0.0058 264.53);
+  --secondary-foreground: #030213;
+  --muted: #ececf0;
+  --muted-foreground: #717182;
+  --accent: #e9ebef;
+  --accent-foreground: #030213;
+  --destructive: #d4183d;
+  --destructive-foreground: #ffffff;
+  --border: rgba(0, 0, 0, 0.1);
+  --input: transparent;
+  --input-background: #f3f3f5;
+  --switch-background: #cbced4;
+  --font-weight-medium: 500;
+  --font-weight-normal: 400;
+  --ring: oklch(0.708 0 0);
+  --chart-1: oklch(0.646 0.222 41.116);
+  --chart-2: oklch(0.6 0.118 184.704);
+  --chart-3: oklch(0.398 0.07 227.392);
+  --chart-4: oklch(0.828 0.189 84.429);
+  --chart-5: oklch(0.769 0.188 70.08);
+  --radius: 0.625rem;
+  --sidebar: oklch(0.985 0 0);
+  --sidebar-foreground: oklch(0.145 0 0);
+  --sidebar-primary: #030213;
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.97 0 0);
+  --sidebar-accent-foreground: oklch(0.205 0 0);
+  --sidebar-border: oklch(0.922 0 0);
+  --sidebar-ring: oklch(0.708 0 0);
+}
+
+.dark {
+  /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     Semantic UI Tokens — Dark Mode Override
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+
+  /* Page-level backgrounds */
+  --page-bg: #0B0F1A;
+  --surface-bg: #070A12;
+  --surface-border: rgba(255, 255, 255, 0.06);
+
+  /* Text colors (from Typography Palette - Dark Mode) */
+  --text-heading-primary: #F8FAFC;
+  --text-heading-secondary: #F1F5F9;
+  --text-body: #E2E8F0;
+  --text-secondary: #94A3B8;
+  --text-muted: #64748B;
+  --text-subtle: #475569;
+
+  /* Interactive states */
+  --interactive-hover-bg: rgba(255, 255, 255, 0.03);
+  --interactive-active-bg: rgba(255, 255, 255, 0.06);
+
+  /* Existing semantic tokens */
+  --background: oklch(0.145 0 0);
+  --foreground: oklch(0.985 0 0);
+  --card: oklch(0.145 0 0);
+  --card-foreground: oklch(0.985 0 0);
+  --popover: oklch(0.145 0 0);
+  --popover-foreground: oklch(0.985 0 0);
+  --primary: oklch(0.985 0 0);
+  --primary-foreground: oklch(0.205 0 0);
+  --secondary: oklch(0.269 0 0);
+  --secondary-foreground: oklch(0.985 0 0);
+  --muted: oklch(0.269 0 0);
+  --muted-foreground: oklch(0.708 0 0);
+  --accent: oklch(0.269 0 0);
+  --accent-foreground: oklch(0.985 0 0);
+  --destructive: oklch(0.396 0.141 25.723);
+  --destructive-foreground: oklch(0.637 0.237 25.331);
+  --border: oklch(0.269 0 0);
+  --input: oklch(0.269 0 0);
+  --ring: oklch(0.439 0 0);
+  --font-weight-medium: 500;
+  --font-weight-normal: 400;
+  --chart-1: oklch(0.488 0.243 264.376);
+  --chart-2: oklch(0.696 0.17 162.48);
+  --chart-3: oklch(0.769 0.188 70.08);
+  --chart-4: oklch(0.627 0.265 303.9);
+  --chart-5: oklch(0.645 0.246 16.439);
+  --sidebar: oklch(0.205 0 0);
+  --sidebar-foreground: oklch(0.985 0 0);
+  --sidebar-primary: oklch(0.488 0.243 264.376);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.269 0 0);
+  --sidebar-accent-foreground: oklch(0.985 0 0);
+  --sidebar-border: oklch(0.269 0 0);
+  --sidebar-ring: oklch(0.439 0 0);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-input-background: var(--input-background);
+  --color-switch-background: var(--switch-background);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+
+  /**
+  * Default typography styles for HTML elements (h1-h4, p, label, button, input).
+  * These are in @layer base, so Tailwind utility classes (like text-sm, text-lg) automatically override them.
+  */
+
+  html {
+    font-size: var(--font-size);
+  }
+
+  h1 {
+    font-size: var(--text-2xl);
+    font-weight: var(--font-weight-medium);
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: var(--text-xl);
+    font-weight: var(--font-weight-medium);
+    line-height: 1.5;
+  }
+
+  h3 {
+    font-size: var(--text-lg);
+    font-weight: var(--font-weight-medium);
+    line-height: 1.5;
+  }
+
+  h4 {
+    font-size: var(--text-base);
+    font-weight: var(--font-weight-medium);
+    line-height: 1.5;
+  }
+
+  label {
+    font-size: var(--text-base);
+    font-weight: var(--font-weight-medium);
+    line-height: 1.5;
+  }
+
+  button {
+    font-size: var(--text-base);
+    font-weight: var(--font-weight-medium);
+    line-height: 1.5;
+  }
+
+  input {
+    font-size: var(--text-base);
+    font-weight: var(--font-weight-normal);
+    line-height: 1.5;
+  }
+}
